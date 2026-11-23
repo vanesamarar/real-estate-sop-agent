@@ -1,0 +1,43 @@
+### 1. STRUCTURED PROPERTY DATA
+* **Property Address:** 12345 SE 42nd St, Bellevue, WA 98006 [Rule 1.2]
+* **King County Parcel ID:** MISSING [Rule 1.1, Rule 1.2]
+* **Target List Price:** $1,200,000 [Rule 1.2]
+* **Year Built:** 1968 [Rule 1.2]
+* **Seller Full Name:** Marcus Vance [Rule 1.2]
+* **Seller Phone:** MISSING [Rule 1.2]
+* **Occupancy Status:** Vacant [Rule 1.2]
+* **HOA / Condo Status:** No HOA [Rule 2.4]
+
+---
+
+### 2. COMPLIANCE & PAPERWORK CHECKLIST
+* **Required Intake Fields:** Flagged under "MISSING INFO — HOLD" due to missing King County Parcel ID and Seller Phone [Rule 1.2].
+* **Standard Packet:** NWMLS Form 1A (Exclusive Sale and Listing Agreement) and NWMLS Form 17 (Seller Disclosure Statement) must be included [Rule 2.1].
+* **Lead-Based Paint:** Because the Year Built is 1968 (prior to 1978), attach NWMLS Form 22J (Lead-Based Paint Disclosure) and EPA pamphlet [Rule 2.2].
+* **Luxury / High-Value Review:** Because the Target List Price is $1,200,000 (which is $1,000,000 or higher), flag for Managing Broker pre-listing compliance review at least 48 hours before the NWMLS live date [Rule 2.3].
+* **HOA / Condo:** Not applicable (No HOA) [Rule 2.4].
+
+---
+
+### 3. SALESFORCE & BLOCKERS
+* **Salesforce Updates (NOW):** None. Because required intake fields (King County Parcel ID and Seller Phone) are missing, we cannot advance the Salesforce stage [Rule 1.2].
+* **Blockers (ON HOLD):** Salesforce Opportunity stage advancement is on hold until the King County Parcel ID and Seller Phone are provided by the agent [Rule 1.2]. Yard-sign installation and lockbox code assignment are on hold until intake fields are complete and seller verification is cleared.
+
+---
+
+### 4. READY-TO-SEND VENDOR EMAIL DRAFTS
+* **Photography Vendor Email (Permitted):**
+  * **To:** photos@nwhm-example.com [Rule 3.1]
+  * **Subject:** Photography Order - 12345 SE 42nd St, Bellevue, WA 98006 [Rule 3.1]
+  * **Body:** 
+    Hello Northwest Home Media team,
+
+    Please schedule photography for our new listing:
+    Property Address: 12345 SE 42nd St, Bellevue, WA 98006
+    Approximate Square Footage: 2,250 sq ft
+    Target Live Date: Next Friday
+
+    Thank you,
+    Real Estate Operations Assistant [Rule 3.1]
+
+*(Note: No yard-sign installation email draft is permitted at this stage because required intake fields are missing and the workflow is on hold [Rule 1.2, Rule 3.2]).*

@@ -1,0 +1,17 @@
+SOP-01: NEW LISTING INTAKE & NWMLS COMPLIANCE (BELLEVUE BROKERAGE)
+Owner: Transaction Coordination & Operations
+Applies To: All Residential Resale & Flip Listings (King / Snohomish / Pierce County)
+
+1. TRIGGER & CRM LOGGING
+- Rule 1.1: Upon receiving a new listing intake email, create or update the Opportunity in Salesforce with Stage = "Pre-Listing" and log the King County Parcel ID.
+- Rule 1.2: If required intake fields (Property Address, Target List Price, Year Built, Seller Full Name, Seller Phone, or Occupancy Status) are missing, flag them under "MISSING INFO — HOLD" and do NOT advance Salesforce stage.
+
+2. REQUIRED NWMLS FORMS & COMPLIANCE
+- Rule 2.1 (Standard Packet): Every residential listing requires NWMLS Form 1A (Exclusive Sale and Listing Agreement) and NWMLS Form 17 (Seller Disclosure Statement).
+- Rule 2.2 (Pre-1978 Lead Paint): If Year Built is prior to 1978, attach NWMLS Form 22J (Lead-Based Paint Disclosure) and EPA pamphlet.
+- Rule 2.3 (Luxury / High-Value Review): If Target List Price is $1,000,000 or higher, flag for Managing Broker pre-listing compliance review at least 48 hours before NWMLS live date.
+- Rule 2.4 (HOA / Condo): If the property is a condo, townhome, or in an HOA, attach NWMLS Form 17C and order the Resale Certificate immediately.
+
+3. VENDOR ORDERS & ACCESS
+- Rule 3.1 (Photography): Draft a scheduling email to Northwest Home Media (photos@nwhm-example.com) with property address, approximate square footage, and target live date. Photos must be scheduled at least 72 hours prior to live date.
+- Rule 3.2 (Lockbox & Sign): If Occupancy Status is "Vacant", assign a Supra Bluetooth lockbox code and draft a yard-sign installation request to Puget Sound Sign Posts (orders@pssign-example.com). If "Owner-Occupied" or "Tenant-Occupied", do NOT install a Supra lockbox without written seller access instructions.
